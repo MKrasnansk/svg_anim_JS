@@ -1,0 +1,49 @@
+.back {
+    height: 40em;
+    width: 100%;
+    background: url(../../img/bmw1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+svg {
+    transform: rotate(-90deg);
+}
+
+.counter {
+    position: relative;
+    bottom: 1em;
+    right: 2em;
+}
+
+circle {
+    fill: none;
+    stroke-width: 2;
+}
+
+.under {
+    color: #ccc;
+}
+
+.progres {
+    color: greenyellow;
+    stroke-width: 4;
+    transition: .2s 6 ease-in-out;
+}
+
+.tragedy {
+    stroke-width: 8;
+    animation: blink .4s ease-out;
+}
+
+.safe {
+    color: greenyellow;
+}
+
+.warn {
+    color: orange;
+}
+
+.danger {
+    color: red;
+    background: orange;
+}
